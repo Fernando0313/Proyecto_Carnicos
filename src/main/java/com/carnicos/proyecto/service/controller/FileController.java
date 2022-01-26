@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 
 @RestController
 @RequestMapping("api/file")
+@CrossOrigin(origins = "*")
 public class FileController {
     private FileService service;
 

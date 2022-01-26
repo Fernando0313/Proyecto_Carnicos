@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 
 @RestController
 @RequestMapping("api/usuario")
+@CrossOrigin(origins = "*")
 public class UsuarioController {
     private final UsuarioService service;
 
