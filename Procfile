@@ -1,1 +1,1 @@
-web: java -jar target/proyecto_carnicos-1.8.0.jar
+web: java -Dspring.profiles.active=default -Dserver.port=$PORT -jar target/*.war
