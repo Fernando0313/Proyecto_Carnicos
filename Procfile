@@ -1,1 +1,1 @@
-web: java -jar target/carnicos-backend-1.8.0.jar
+web: java -jar target/proyecto_carnicos-1.8.0.jar
